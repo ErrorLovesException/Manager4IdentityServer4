@@ -1,5 +1,4 @@
-FROM microsoft/dotnet
-
+FROM microsoft/dotnet:1.1.0
 COPY ./publish /app/identityserver4-manager
 WORKDIR /app/identityserver4-manager
 #RUN ["dotnet", "restore"]
